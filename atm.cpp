@@ -2,8 +2,6 @@
 
 Atm::Atm():m_cash(INT64_MAX/2){};
 
-// Atm::~Atm()=default;
-
 Atm::Atm(int64_t amount):m_cash(amount){};
 
 std::string Atm::readCard(){

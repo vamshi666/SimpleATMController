@@ -3,12 +3,7 @@
 Bank::Bank(){
     initialiseAccountsData();
 }
-// Bank::~Bank(){
-//     for(auto i:m_accounts){
-//         m_accounts.erase(i.first);
-//     }
-//     // delete m_name;
-// }
+
 Bank::Bank(std::string& name):m_name(name){
     initialiseAccountsData();
 };
