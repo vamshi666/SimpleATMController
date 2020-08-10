@@ -4,7 +4,7 @@
 #include "card.hpp"
 #include <memory>
 class Account{
-    protected:
+    private:
         std::shared_ptr<Card> m_card;
         std::string m_pin;
         std::string m_account_number;

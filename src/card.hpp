@@ -6,7 +6,7 @@
 #include <iostream>
 class Card
 {
-    protected:
+    private:
         std::string m_cardNumber;
         uint16_t m_CVC;
         std::string m_name;
